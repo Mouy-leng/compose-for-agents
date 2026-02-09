@@ -1,0 +1,17 @@
+# cloudshell.yaml
+# For more information, see: https://cloud.google.com/shell/docs/customizing-cloud-shell-environment
+
+# Set the default image for the Cloud Shell environment
+image: gcr.io/cloudshell-images/cloudshell:latest
+
+# Display a welcome message when the environment starts
+welcome_message: |
+  Welcome to the Compose for Agents Demos!
+
+  Each directory contains a self-contained demo using Docker Compose and MCP.
+  To run a demo:
+  1. cd <demo-directory>
+  2. docker compose up --build
+
+  Tip: If you're running in Cloud Shell, consider using OpenAI models or
+  Docker Offload, as local LLMs may exceed the available RAM.
